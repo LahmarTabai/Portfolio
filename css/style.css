@@ -1,0 +1,186 @@
+/* reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif; 
+    margin: 0;
+}
+
+p, a, figure, h1, h2, h3, h4, ul, li,section, ol, section{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: initial;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* thème */
+
+:root{
+    --color-defalt: #373741;
+    --color-main: #ffffff;
+    --color-text-header: #e1d8cf;
+    --color-text-var: #FE2712;
+}
+
+header {
+    line-height: 4rem;
+    background-color: var(--color-defalt);
+    margin-bottom: 5rem;
+    padding-top: 4rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header h1 {
+    padding-bottom: 1rem;
+}
+
+header h1, header p {
+    color: var(--color-text-header);
+    text-align: center;
+}
+
+
+body{
+    max-width: 90rem;
+    margin: 0 auto 2rem;
+    padding-top: 6rem;
+    background-color:rgba(247, 241, 241, 0.863);
+
+}
+
+section h2 {
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+
+section p {
+    line-height: 2.5rem;
+    font-weight: normal;
+    text-align: justify;
+   
+}
+
+section li {
+    line-height: 2.5rem;
+    font-weight: normal;
+    padding-left: 1rem;
+}
+
+section li:first-child {
+    padding-top: .8rem;
+}
+
+body {
+    position: relative;
+    background-color: var(--color-main);
+    
+}
+
+
+
+main {
+    position: absolute;
+    background-color: var(--color-main);
+    top: 0%;
+    left: 50%;
+    right: 0;
+    z-index: 1;
+    padding-top: 25rem;
+    height: 132rem;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    z-index: 2;
+    height: 20rem;
+}
+
+.part2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+    background-color: var(--color-text-header);
+    height: 132rem;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+    padding: 6rem;
+}
+
+section h2 {
+    background-color: var(--color-defalt);
+    color: var(--color-text-header);
+    margin: .5rem 1.5rem;
+    padding-left: 1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+html {
+    background-color: #0e1318;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+section ul li{
+    line-height: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+main section ul li {
+    padding-bottom: 1.16rem;
+    padding-right: 1.5rem; 
+}
+
+.bord li:nth-child(2n + 1) {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.roger {
+    font-size: 1.9rem;
+}
+
+.dog li:nth-child(2n + 1) {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+#phone{
+    color: #069c06;
+}
+
+#linkedin {
+    color: #067ff8;
+}
+
+.toto {
+    display: none;
+}
+
+section ul a:hover, #tab:hover{
+    color: #3683da;
+    text-decoration: underline;
+}
+
