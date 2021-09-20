@@ -51,7 +51,7 @@ header h1, header p {
 
 
 body{
-    max-width: 90rem;
+    max-width: 85rem;
     margin: 0 auto 2rem;
     padding-top: 6rem;
     background-color:rgba(247, 241, 241, 0.863);
@@ -96,7 +96,7 @@ main {
     right: 0;
     z-index: 1;
     padding-top: 25rem;
-    height: 132rem;
+    height: 140rem;
 }
 
 header {
@@ -114,7 +114,7 @@ header {
     left: 0;
     right: 50%;
     background-color: var(--color-text-header);
-    height: 132rem;
+    height: 140rem;
 }
 
 .card img{
@@ -137,8 +137,16 @@ html {
 
 footer {
     position: absolute;
-    bottom: 0;
+    top: 142rem;
     left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-text-header);
+    z-index: 5;
+    width: 85rem;
+    background-color: var(--color-defalt);
+    line-height: 5rem;
+    text-align: center;
+    font-weight: bolder;
 }
 
 section ul li{
@@ -157,7 +165,7 @@ main section ul li {
 }
 
 .roger {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
 }
 
 .dog li:nth-child(2n + 1) {
@@ -168,7 +176,7 @@ main section ul li {
 }
 
 #phone{
-    color: #069c06;
+    color: #141414;
 }
 
 #linkedin {
@@ -179,8 +187,79 @@ main section ul li {
     display: none;
 }
 
-section ul a:hover, #tab:hover{
+section ul a:hover{
     color: #3683da;
     text-decoration: underline;
 }
 
+.taff li {
+    padding-top: 1rem;
+}
+
+
+
+
+/* Tablette */
+@media screen and (max-width: 70rem){
+    .load {
+        font-size: 1.9rem;
+    }
+    .lang {
+        line-height: 1rem;
+    }
+    .roger {
+        line-height: 4rem;
+    }
+}
+
+
+/* Tel */
+@media screen and (max-width: 40rem) {
+   header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        height: 20rem;
+   }
+   header p {
+       padding: 0 .3rem;
+   }
+   section h2, .roger, .load {
+        font-size: 1.2rem;
+   }
+   ul li {
+        font-size: 1.1rem;
+   }
+   main {
+        height: 170rem;
+   }
+   .part2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 50%;
+        background-color: var(--color-text-header);
+        height: 170rem;
+        padding-top: 20rem;
+   }
+
+   footer {
+        position: absolute;
+        top: 162rem;
+        left: 0;
+        display: block;
+        width: 100%;
+        padding-left: 48%;
+        color: var(--color-text-header);
+        z-index: 5;
+        background-color: var(--color-defalt);
+        line-height: 5rem;
+        text-align: center;
+        font-weight: bolder;
+   }
+   
+   
+
+}
