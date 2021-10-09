@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "```\r <!DOCTYPE html>\r <html lang=\"en\">\r <head>\r     <meta charset=\"UTF-8\">\r     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r     <meta name=\"description\" content=\"CV Lahmar Tabai\">\r     <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"./asset/apple-touch-icon.png\">\r     <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./asset/favicon-32x32.png\">\r     <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"./asset/favicon-16x16.png\">\r     <link rel=\"manifest\" href=\"./asset/site.webmanifest\">\r     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css\" integrity=\"sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==\" crossorigin=\"anonymous\" />\r     <link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\r     <title>CV</title>\r     <link rel=\"stylesheet\" href=\"./css/style.css\" media=\"screen\" type=\"text/css\">\r </head>\r <body>\r     <header>\r         <h1>LAHMAR TABAI</h1>\r         <p>En recherche d'une Alternance en développement Web</p>\r     </header>",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --no-babelrc src -w -d js --preset=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LahmarTabai/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LahmarTabai/Portfolio/issues"
+  },
+  "homepage": "https://github.com/LahmarTabai/Portfolio#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}
