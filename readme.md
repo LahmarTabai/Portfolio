@@ -4,7 +4,7 @@
 
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -77,11 +77,13 @@
 
         <section>
             <h2>CONTACT</h2>
-            <ul>
-                <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a href="https://www.google.com/maps/place/11+Bd+de+l'Orangerie,+95160+Montmorency/@48.9830999,2.3176914,16.74z/data=!4m5!3m4!1s0x47e6685a1af72985:0x4e061bdbc1f12ed7!8m2!3d48.9832284!4d2.320281" title="My Adresse" target="blank"><strong> Adresse : </strong>11 Bloulevarde de l'orangerie Montmorency 95160</a></li><!-- whitespace
-             --><li><i id="phone" class="fa fa-phone" aria-hidden="true"></i><a href="#" title="My Phone Number"> 07 50 02 74 45</a></li><!--
-             --><li><i id="tab" class="fa fa-user" aria-hidden="true"></i><a href="mailto:lahmartabai@yahoo.fr"> lahmartabai@yahoo.fr</a></li><!--
-             --><li><a class="frog" href="https://www.linkedin.com/in/tabai-lahmar-74b33a210/" title="My Linkedin" target="blank"><i id="linkedin" class="fab fa-linkedin"></i><strong> Linkedin : </strong>https://www.linkedin.com/in/tabai-lahmar-74b33a210/</a></li>
+            <ul itemscope itemtype="https://schema.org/PostalAddress">
+                <li itemprop="streetAddress"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a href="https://www.google.com/maps/place/11+Bd+de+l'Orangerie,+95160+Montmorency/@48.9830999,2.3176914,16.74z/data=!4m5!3m4!1s0x47e6685a1af72985:0x4e061bdbc1f12ed7!8m2!3d48.9832284!4d2.320281" title="My Adresse" target="blank"><strong> Adresse : </strong>11 Bloulevarde de l'orangerie Montmorency 95160</a></li><!-- whitespace
+             --><li itemprop="telephone"><i id="phone" class="fa fa-phone" aria-hidden="true"></i><a href="#" title="My Phone Number"> 07 50 02 74 45</a></li><!--
+             --><li itemprop="email"><i id="tab" class="fa fa-user" aria-hidden="true"></i><a href="mailto:lahmartabai@yahoo.fr"> lahmartabai@yahoo.fr</a></li><!--
+             --><li><a class="frog" href="https://www.linkedin.com/in/tabai-lahmar-74b33a210/" title="My Linkedin" target="blank"><i id="linkedin" class="fab fa-linkedin"></i><strong> Linkedin : </strong>/in/Tabai-Lahmar/</a></li><!--
+             --><li><i class="fab fa-gitlab"></i><a class="frog" href="https://github.com/LahmarTabai?tab=repositories" title="My Github" target="blank"><strong> Github : </strong>/git/Tabai-Lahmar/</a></li>
+
             </ul>
         </section>
 
@@ -328,8 +330,6 @@ section ul a:hover{
 }
 
 
-
-
 /* Tablette */
 @media screen and (max-width: 70rem){
     .load {
@@ -397,4 +397,14 @@ section ul a:hover{
 
 ```
 
+## Les notions de dévéloppment
+* HTML<sup>5</sup>
+* CSS<sub>3<sub>
+* js
+* PHP
+* Versioning
+
 #[Tux, the Linux mascot](./asset/img.png)
+
+Voir la Page Web *[Page web](https://lahmartabai.github.io/Portfolio/)*.
+
