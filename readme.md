@@ -78,7 +78,7 @@
         <section>
             <h2>CONTACT</h2>
             <ul itemscope itemtype="https://schema.org/PostalAddress">
-                <li itemprop="streetAddress"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a href="https://www.google.com/maps/place/11+Bd+de+l'Orangerie,+95160+Montmorency/@48.9830999,2.3176914,16.74z/data=!4m5!3m4!1s0x47e6685a1af72985:0x4e061bdbc1f12ed7!8m2!3d48.9832284!4d2.320281" title="My Adresse" target="blank"><strong> Adresse : </strong>11 Bloulevarde de l'orangerie Montmorency 95160</a></li><!-- whitespace
+                <li itemprop="streetAddress"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a href="https://www.google.com/maps/place/11+Bd+de+l'Orangerie,+95160+Montmorency/@48.9830999,2.3176914,16.74z/data=!4m5!3m4!1s0x47e6685a1af72985:0x4e061bdbc1f12ed7!8m2!3d48.9832284!4d2.320281" title="My Adresse" target="blank"><strong> Adresse : </strong>11 Bloulevard de l'orangerie Montmorency 95160</a></li><!-- whitespace
              --><li itemprop="telephone"><i id="phone" class="fa fa-phone" aria-hidden="true"></i><a href="#" title="My Phone Number"> 07 50 02 74 45</a></li><!--
              --><li itemprop="email"><i id="tab" class="fa fa-user" aria-hidden="true"></i><a href="mailto:lahmartabai@yahoo.fr"> lahmartabai@yahoo.fr</a></li><!--
              --><li><a class="frog" href="https://www.linkedin.com/in/tabai-lahmar-74b33a210/" title="My Linkedin" target="blank"><i id="linkedin" class="fab fa-linkedin"></i><strong> Linkedin : </strong>/in/Tabai-Lahmar/</a></li><!--
