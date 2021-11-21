@@ -258,6 +258,79 @@ section ul a:hover{
         font-weight: bolder;
    }
    
-   
+}
+
+/* Tel Iphone */
+@media screen and (max-width: 30rem) {
+    header {
+        line-height: 2rem;
+        background-color: var(--color-defalt);
+    }
+
+    header h1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+    }
+
+    body, main, header, .part2, footer {
+        position: inherit;
+    }
+
+    header {
+        position: relative;
+    }
+
+    aside section:nth-child(1) {
+        position: absolute;
+        width: 35rem;
+        top: 23rem;
+        left: -2.25rem;
+
+    }
+
+    main section h2 {
+        text-align: center;
+    }
+
+    main {
+        height: initial;
+        margin-bottom: 2rem;
+    }
+    
+    aside {
+        height: initial;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    aside section h2 {
+        text-align: center;
+    }
+
+    aside section:nth-child(2) {
+        margin-top: -15rem;
+        margin-bottom: 2rem;
+    }
+
+    aside section:nth-child(3), aside section:nth-child(4) {
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        position: absolute;
+        top: 330rem;
+        left: 0;
+        transform: translateX(0%);
+        padding-left: 0%; 
+    }
+
+    
+
 
 }
