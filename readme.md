@@ -404,7 +404,7 @@ section ul a:hover{
 * PHP
 * Versioning
 
-#[Tux, the Linux mascot](./asset/img.png)
+#[Tux, the Linux mascot](./asset/image.png)
 
 Voir la Page Web *[Page web](https://lahmartabai.github.io/Portfolio/)*.
 
