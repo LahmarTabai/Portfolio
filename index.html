@@ -1,120 +1,410 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CV Lahmar Tabai">
-    <link rel="apple-touch-icon" sizes="180x180" href="./asset/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon-16x16.png">
-    <link rel="manifest" href="./asset/site.webmanifest">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>CV</title>
-    <link rel="stylesheet" href="./css/style.css" media="screen" type="text/css">
+    <title>Portfolio Tabai</title>
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <h1>LAHMAR TABAI</h1>
-        <p>En recherche d'une Alternance en développement Web</p>
+
+    <!-- Page Loader Start -->
+
+    <div class="page-loader">
+        <div class="page-loader-inner">
+            <div class="circle"></div>
+            Loading
+        </div>
+    </div>
+
+
+    <!-- Page Loader End -->
+
+
+
+
+    <!-- Bg Animation Effect Start -->
+    <div class="bg-animation-effect">
+
+    </div>
+    <!-- Bg Animation Effect End -->
+
+
+    <!-- Overlay Effect Start -->
+
+    <div class="overlay-effect">
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+        <div class="overlay-effect-item"></div>
+    </div>
+
+    <!-- Overlay Effect End -->
+
+
+    <!-- Header Start -->
+
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <!-- Nav -->
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#about" class="nav-item link-item">about</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <main>
-
-        <section>
-            <h2>COMPÉTENCES</h2>
-            <ul>
-                <li>Solides compétences en organisation et encollaboration au sein d'une entreprise.</li><!-- whitespace
-             --><li>Connaissances des langages de programmation : </li><!--
-             --><li>Python, Java, C, C++, Js, SQL, Html<sup>5</sup> et Css<sub>3</sub></li><!--
-             --><li>Utilisation de logiciels comme Eclypse, Visual Studio Code, VMware, Packet-tracer.</li><!--
-             --><li>Maitrise de logiciels bureautiques : Pack Office.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>FORMATIONS</h2>
-            <ul class="bord">
-                <li>BTS SIO SLAM, Solution logicielles et Applications Métiers</li><!-- whitespace
-             --><li><a href="https://www.iticparis.com/" title="ITIC PARIS" target="blank">Institut des techniques informatiques et commerciales Paris</a> (Encours de préparation) Promotion <time datetime="2020-09-02"></time>2020.</li><!--
-             --><li>Diplôme Licence Appliquée en Anesthésie et Soins Intensifs</li><!--
-             --><li>Ecole Centrale Supérieure Privée des sciences paramédicales et de laSanté de Tunis, Promotion 2015.</li><!--
-             --><li>Diplôme Licence Appliquée en Sciences Infirmières</li><!--
-             --><li>Institut Supérieur des sciences infirmières de Tunis (ISSIT),Promotion <time datetime="2011-01-01"></time>2011.</li><!--
-             --><li>Baccalauréat Sciences Expérimentales</li><!--
-             --><li>Lycée secondaire de Nafta, juin <time datetime="2008-06-01"></time>2008.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>LANGUES</h2>
-            <ul>
-                <li><strong>Francais : </strong>Niveau avancé.</li><!-- whitespace
-             --><li><strong>Anglais : </strong>Niveau avancé.</li><!--
-             --><li><strong>Allemand : </strong>Niveau intermédiaire.</li><!--
-             --><li class="lang"><strong>Arabe : </strong>Niveau avancé.</li>
-            </ul>
-        </section>
-
-        
-
-    </main>
-
-    <aside class="part2">
-
-        <section>
-            <h2 class="toto">Lahmar Tabai</h2>
-            <figure class="card">
-                <img src="./asset/img.png" alt="Tabai Lahmar">
-            </figure>
-        </section>
-
-        <section>
-            <h2>CONTACT</h2>
-            <ul itemscope itemtype="https://schema.org/PostalAddress">
-                <li itemprop="streetAddress"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a href="https://www.google.com/maps/place/11+Bd+de+l'Orangerie,+95160+Montmorency/@48.9830999,2.3176914,16.74z/data=!4m5!3m4!1s0x47e6685a1af72985:0x4e061bdbc1f12ed7!8m2!3d48.9832284!4d2.320281" title="My Adresse" target="blank"><strong> Adresse : </strong>11 Bloulevard de l'orangerie Montmorency 95160</a></li><!-- whitespace
-             --><li itemprop="telephone"><i id="phone" class="fa fa-phone" aria-hidden="true"></i><a href="#" title="My Phone Number"> 07 50 02 74 45</a></li><!--
-             --><li itemprop="email"><i id="tab" class="fa fa-user" aria-hidden="true"></i><a href="mailto:lahmartabai@yahoo.fr"> lahmartabai@yahoo.fr</a></li><!--
-             --><li><a class="frog" href="https://www.linkedin.com/in/tabai-lahmar-74b33a210/" title="My Linkedin" target="blank"><i id="linkedin" class="fab fa-linkedin"></i><strong> Linkedin : </strong>/in/Tabai-Lahmar/</a></li><!--
-             --><li><i class="fab fa-gitlab"></i><a class="frog" href="https://github.com/LahmarTabai?tab=repositories" title="My Github" target="blank"><strong> Github : </strong>/git/Tabai-Lahmar/</a></li>
-
-            </ul>
-        </section>
-
-        <section>
-            <h2 class="roger">EXPÉRIENCES PROFESSIONNELLES</h2>
-            <ul class="dog">
-                <li class="load">Technicien d'Anesthésie et Soins Intensif :</li><!-- whitespace
-             --><li>Polyclinique Les Berges Du Lac (Tunisie). | <time datetime="2016-01-23">2016</time> - 2020</li><!--
-             --><li>Infirmier en salle de cathétérisme cardiaque :</li><!--
-             --><li>Polyclinique cardiologique Elamen (Tunisie). | <time datetime="2012-01-01">2012</time> - 2013</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>CENTRES D'INTÉRÉTS</h2>
-            <ul class="taff">
-                <li>Apprendre et bien maitriser de nouveaux langages en programmation.</li><!-- whitespace
-             --><li>Concevoir des programmes destinés à la gestion d'une Organisation. </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>ATOUT PERSONNEL</h2>
-            <ul class="taff">
-                <li><sub>*</sub> Persévérant.</li><!-- whitespace
-             --><li><sub>*</sub> Actif.</li><!--
-             --><li><sub>*</sub> Créatif.</li><!--
-             --><li><sub>*</sub> Coopératif.</li>
-            </ul>
-        </section>
-    </aside>
-
-    <footer>&copy; - 2021 - Lahmar Tabai</footer>
-
+    <!-- Header End -->
     
-    
-    <script src="./js/app.js"></script>
+<main>
+
+<!-- About Section Start -->
+    <section class="about-section active" id="about">
+        <div class="container">
+            <div role="article" aria-labelledby="presentation" class="row min-vh-100">
+                <div id="presentation" class="about-content">
+                    <img src="./asset/profile.png" alt="Profile-img">
+                    <h1>Hi, My name is Tabai Lahmar.</h1>
+                    <p>I'm a <span>developer</span> in living Paris, France. I make web applications using <span>Html</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>Laravel</span>. Check out my latest work on the <a href="#portfolio" class="link-item">portfolio page</a>. Want to talk about a project ? You can get in touch with me <a href="#contact" class="link-item">here</a>.</p>
+                    <h2>Skills</h2>
+                    <ul class="skills">
+                        <li class="skill-item">HTML</li>
+                        <li class="skill-item">CSS</li>
+                        <li class="skill-item">JavaScript</li>
+                        <li class="skill-item">PHP</li>
+                        <li class="skill-item">Laravel</li>
+                        <li class="skill-item">Java</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+<!--About Section End -->
+
+
+<!-- Portfolio Section Start -->
+
+<section class="portfolio-section sec-padding" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>recent works</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="portfolio-filter">
+            <button type="button" title="Show All Works" class="portfolio-filter-btn  active" data-filter="all">all</button>
+            <button type="button" title="Filter by Front-End" class="portfolio-filter-btn" data-filter="front-end">front-End</button>
+            <button type="button" title="Filter by Back-End" class="portfolio-filter-btn" data-filter="back-end">back-End</button>
+            <button type="button" title="Filter by Laravel" class="portfolio-filter-btn" data-filter="laravel">laravel</button>
+        </div>
+        <div class="filter-status">
+            <p></p>
+        </div>
+    </div>
+
+    <div class="row portfolio-items">
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/1.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">education websites</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS</span></p>
+                    <p>Role - <span>Front-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item end -->
+
+        <!-- portfolio item end -->
+        <div class="portfolio-item" data-category="front-end,laravel">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/2.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">Applicaion with Laravel</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS, Js, Laravel</span></p>
+                    <p>Role - <span>Front-End || Back-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item start -->
+
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="back-end">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/3.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">Back-End Project</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS, Java</span></p>
+                    <p>Role - <span>Front-End || Back-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item end -->
+
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="front-end, laravel">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/4.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">app landing page</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS, Javascript</span></p>
+                    <p>Role - <span>Front-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item end -->
+
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/5.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">Restaurant website</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS</span></p>
+                    <p>Role - <span>Front-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item end -->
+
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/6.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">Personnal portfolio website</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS</span></p>
+                    <p>Role - <span>Front-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item end -->
+
+        <!-- portfolio item start -->
+        <div class="portfolio-item" data-category="front-end, laravel">
+            <div class="portfolio-item-thumbnail">
+                <img src="./asset/7.jpg" alt="Miniature">
+                <button type="button" class="btn more-info-btn">more info</button>
+            </div>
+            <h3 class="portfolio-item-title">product landing page</h3>
+            <div class="portfolio-item-details">
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto atque omnis, autem nemo aliquam doloribus. Porro facilis molestias assumenda blanditiis qui molestiae minima consectetur nemo! Sapiente maiores quisquam quia!</p>
+                </div>
+                <div class="general-info">
+                    <p>Created - <span>27 Jan 2022</span></p>
+                    <p>Technologies Used - <span>HTML, CSS</span></p>
+                    <p>Role - <span>Front-End</span></p>
+                    <p>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item end -->
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+<!-- Contact Section Start -->
+
+    <section class="contact-section sec-padding min-vh-100" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>contact me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus alias sunt deserunt asperiores est beatae dicta fugiat quas voluptatem animi! Iusto repudiandae vero doloremque ex eveniet perferendis quisquam id harum?</p>
+                    </div>
+                    <div class="contact-infi-item">
+                        <p>Email me on <span>Lahmartabai@yahoo.fr</span></p>
+                    </div>
+                    <div class="contact-info-item">
+                        <p class="social-links">
+                            <span>Find me on</span>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </p>
+                    </div>
+                    <button type="button" class="btn toggle-contact-form-btn">Send message</button>
+                </div>
+<!-- Contact Form Start -->
+
+<div class="contact-form">
+    <div class="contact-form-inner">
+        <div class="contact-form-container">
+            <button type="button" class="close-btn toggle-contact-form-btn"></button>
+            <form>
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" class="input-control">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" placeholder="Your E-mail" class="input-control">
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="text" placeholder="Subject" class="input-control">
+                    </div>
+
+                    <div class="input-group">
+                       <textarea placeholder="Message" class="input-control"></textarea>
+                    </div>
+
+                    <div class="input-group">
+                        <button type="submit" class="btn btn-submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Form End -->
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Contact Section End -->
+
+
+
+<!-- Portfolio Item Details Popup Start -->
+
+<div class="portfolio-popup">
+    <div class="pp-overlay"></div>
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <h2 class="pp-counter">
+                
+                </h2>
+                <button type="button" title="close" class="close-btn pp-close-btn"></button>
+                <div class="pp-thumbnail">
+                    <img src="./asset/7.jpg" alt="pp-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pp-body"></div>
+            <div class="pp-footer">
+                <div class="pp-footer-left hidden">
+                    <button type="button" title="Prev Work" class="btn pp-prev-btn">
+                        <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                    </button>
+                    <h3></h3>
+                    <img src="./asset/1.jpg" alt="prev work thumbnail">
+                </div>
+                <div class="pp-footer-right hidden">
+                    <button type="button" title="Next Work" class="btn pp-next-btn">
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                    <h3></h3>
+                    <img src="./asset/2.jpg" alt="next work thumbnail">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Portfolio Item Details Popup End -->
+
+
+
+
+
+
+
+
+
+
+</main>
+<script src="./js/app.js"></script>
 </body>
 </html>
