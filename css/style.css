@@ -539,7 +539,7 @@ About Section
 .about-content img {
     max-width: 15rem;
     border: .5rem solid var(--dark-light);
-    border-radius: 30%;
+    border-radius: 10%;
     margin: 0 0 1.5rem;
 }
 
