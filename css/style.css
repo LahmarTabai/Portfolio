@@ -1081,6 +1081,19 @@ Contact Form
     resize: none;
 }
 
+.parf {
+    font-size: 1.5rem;
+}
+
+.mal {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.mal1 {
+    font-size: 2rem;
+    color: #e98b23;
+}
 /*---------
 Responsive
 ---------*/
